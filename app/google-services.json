@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1038618852670",
+    "project_id": "majha-shetkari-11",
+    "storage_bucket": "majha-shetkari-11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038618852670:android:f8baa900a55f70a454806f",
+        "android_client_info": {
+          "package_name": "com.example.majhashetkari11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038618852670-lf2atmrf39vfqln4uu5kdth3air9hpno.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApEhrMsqcTurE88THxXl7L1e46uLoWx3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038618852670-lf2atmrf39vfqln4uu5kdth3air9hpno.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
