@@ -47,6 +47,7 @@ public class Model {
     public void setMessage(String message) {
         this.msg = message;
     }
+
     public String getTrnId() {
         return trnId;
     }

@@ -103,9 +103,9 @@ public class DetailedActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(DetailedActivity.this, upiOrCashActivity.class);
-                /*if (productsModel != null) {
+                if (productsModel != null) {
                     intent.putExtra("item", productsModel);
-                }*/
+                }
                 startActivity(intent);
             }
         });

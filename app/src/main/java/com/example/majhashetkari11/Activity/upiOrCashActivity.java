@@ -32,6 +32,8 @@ public class upiOrCashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_upi_or_cash);
 
+        Object obj = getIntent().getSerializableExtra("item");
+
         db = FirebaseFirestore.getInstance();
 
         edttt1 = findViewById(R.id.p_d_name);
@@ -107,13 +109,13 @@ public class upiOrCashActivity extends AppCompatActivity {
                         }
                     });
 
-                    /*int amount = 0;
+                    int amount = 0;
                     if (obj instanceof ProductsModel) {
                         ProductsModel productsModel = (ProductsModel) obj;
                         amount = productsModel.getPrice();
-                    }*/
+                    }
                     Intent intent = new Intent(upiOrCashActivity.this,MainClass.class);
-                    //intent.putExtra("amount", amount);
+                    intent.putExtra("amount", amount);
                     startActivity(intent);
 
                     //Toast.makeText(Delivery.this, "Order Placed Sucessfully", Toast.LENGTH_SHORT).show();
